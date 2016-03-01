@@ -1,3 +1,4 @@
-FROM drydock/u12nod:prod
+FROM drydock/u12pyt:prod
+COPY . /src
 
-RUN mkdir -p /tmp/logs
+EXPOSE  8080
