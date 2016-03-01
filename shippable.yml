@@ -36,13 +36,8 @@ after_script:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
   
-cache: true
+#cache: true
 
 notifications:
   email: 
-   - shiphitchcock1@gmail.com   
-  on_success: always
-  on_failure: always
-  #on_start: always
-  #on_pull_request: always
-  
+   - shiphitchcock1@gmail.com     
