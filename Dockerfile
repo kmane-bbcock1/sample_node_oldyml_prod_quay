@@ -1,4 +1,4 @@
-FROM drydock/u12pyt:prod
+FROM drydock/u12nod:prod
 COPY . /src
 
 EXPOSE  8080
